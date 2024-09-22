@@ -1,0 +1,13 @@
+prefix=E:/Naive_Bayes/venv/Library
+exec_prefix=E:/Naive_Bayes/venv/Library
+libdir=E:/Naive_Bayes/venv/Library/lib
+sharedlibdir=E:/Naive_Bayes/venv/Library/lib
+includedir=E:/Naive_Bayes/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
